@@ -1,0 +1,28 @@
+---
+layout: default
+title: "About Me"
+---
+<div style="display: flex; flex-direction: column; gap: 1rem;">
+    <div class="card" style="background-color: #d0d0d0;">
+        <h1>Experience</h1>
+    </div>
+    <div style="display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;">
+        {% for experience in site.data.experience %}
+            <div class="card" style="background-color: {{experience.color}};">
+                <div style="display: flex; align-items: flex-start; justify-content: space-between;">
+                    <div>
+                        <h1>{{experience.title}}</h1>
+                        <h2><a href="{{ experience.link | relative_url }}">{{experience.location}}</a></h2>
+                        <h3>{{experience.date}}</h3>
+                    </div>
+                    <a href="{{ experience.link | relative_url }}">
+                        <img style="display: block;" src="{{ experience.image | relative_url }}">
+                    </a>
+                </div>
+                <p>{{experience.detail}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>

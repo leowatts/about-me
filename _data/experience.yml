@@ -1,0 +1,35 @@
+- title: Maths Degree
+  link: https://www.maths.ox.ac.uk/
+  location: University of Oxford
+  color: "rgba(0, 140, 200, 0.2)"
+  image: "/assets/oxford-square-64x64.png"
+  date: 2023-27
+  detail: My interests are in Logic, Set Theory, Category Theory and Topology. I study at <a href="https://www.worc.ox.ac.uk/">Worcester College</a>.
+- title: Contributor
+  link: https://servo.org/
+  location: Servo Project
+  color: "rgba(0, 156, 153, 0.2)"
+  image: "/assets/servo-symbol-color.svg"
+  date: 2026-
+  detail: As one of the ~70 members of the open source Servo project, I investigate issues and contribute code on a regular basis.
+- title: Internship
+  link: https://www.tillo.com/
+  location: Tillo
+  color: "rgba(60, 100, 240, 0.2)"
+  image: "/assets/tillo-logo.svg"
+  date: Summer 2026
+  detail: I worked on data pipelines and tools for both the Operations and Development teams. This enabled more advanced reporting and business insights.
+- title: Internship
+  link: https://www.clockwork.dog/
+  location: Clockwork Dog
+  color: "rgba(170, 100, 240, 0.2)"
+  image: "/assets/clockwork-dog-logo-64x64.png"
+  date: Summer 2025
+  detail: I fixed small bugs in <a href="https://cogs.show/">COGS</a>, an Electron application for running escape rooms. I also worked on a custom fork of Chromium to upgrade support for 4k video on the Raspberry Pi.
+- title: Internship
+  link: https://www.dash.app/
+  location: Dash
+  color: "rgba(130, 100, 240, 0.2)"
+  image: "/assets/dash-logo-64x64.png"
+  date: Summer 2023 & 2024
+  detail: I worked on small features and bug fixes in Dash. I led a migration away from a legacy Auth provider API. I also worked on small customer-specific pieces of support.
