@@ -18,7 +18,7 @@ title: "About Me"
                         <h3>{{experience.date}}</h3>
                     </div>
                     <a href="{{ experience.link | relative_url }}">
-                        <img style="display: block;" src="{{ experience.image | relative_url }}">
+                        <img style="display: block;" alt="{{experience.title}}" src="{{ experience.image | relative_url }}">
                     </a>
                 </div>
                 <p>{{experience.detail}}</p>
